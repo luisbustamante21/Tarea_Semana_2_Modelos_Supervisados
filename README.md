@@ -1,6 +1,6 @@
 ## Problema
 
-La diabetes mellitus es una enfermedad crónica con alta prevalencia y complicaciones severas si no se detecta a tiempo. El objetivo de este proyecto es desarrollar un modelo predictivo capaz de estimar la probabilidad de que un individuo desarrolle diabetes, a partir de factores demográficos, de estilo de vida y métricas clínicas.
+La diabetes es una enfermedad crónica que afecta a millones de personas en todo el mundo. La detección temprana es fundamental para implementar intervenciones que prevengan o retrasen su aparición. Con el auge de los datos de salud y las técnicas de aprendizaje automático, es posible desarrollar modelos predictivos que identifiquen a individuos en riesgo basándose en factores personales y clínicos.
 
 El dataset proviene de Kaggle y contiene 10,000 registros y 21 variables, incluyendo edad, sexo, etnia, índice de masa corporal (IMC), niveles de glucosa en ayunas, HbA1c, perfil lipídico, presión arterial, hábitos de vida y antecedentes familiares de diabetes.
 
