@@ -15,9 +15,9 @@ El objetivo principal es construir un modelo que, a partir de estas variables, p
 
 ### 2. Limpieza y Preprocesamiento
 
-* Tratamiento de valores faltantes en la columna `Alcohol_Consumption` (aprox. 33% de datos faltantes) mediante imputación con la moda.
+* Tratamiento de valores faltantes en la columna `Alcohol_Consumption` mediante imputación con la moda.
 * Normalización de variables numéricas (`IMC`, `glucosa`, `HbA1c`, `colesterol`, `presión arterial`, `GGT`, `ácido úrico`, `ingesta calórica`) con `StandardScaler`.
-* Codificación one‑hot de variables categóricas (`Sex`, `Ethnicity`, `Physical_Activity_Level`, `Alcohol_Consumption`, `Smoking_Status`).
+* Codificación de características categóricas mediante LabelEncoder (`Sex`, `Ethnicity`, `Physical_Activity_Level`, `Alcohol_Consumption`, `Smoking_Status`, `BMI_Category`, `Age_Group`).
 
 ### 3. Análisis Exploratorio de Datos
 
@@ -42,7 +42,7 @@ El objetivo principal es construir un modelo que, a partir de estas variables, p
 
 ### 6. Optimización de Hiperparámetros
 
-* Uso de `GridSearchCV` para ajustar parámetros clave en Random Forest (número de árboles, profundidad máxima, etc.) y mejorar la generalización.
+* Uso de los `Hiperparámetros` para ajustar parámetros clave en Random Forest, SVM, Árbol de Decisión y mejorar la generalización.
 
 ## Conclusiones
 
@@ -54,7 +54,7 @@ El objetivo principal es construir un modelo que, a partir de estas variables, p
   3. Índice de Masa Corporal (IMC)
   4. Antecedentes familiares de diabetes
 * **Aplicabilidad:** Este modelo podría integrarse en entornos clínicos o programas de salud pública como herramienta de selección para la identificación temprana de individuos en riesgo, permitiendo intervenciones preventivas.
-* * **Líneas Futuras de Desarrollo:**
+* **Líneas Futuras de Desarrollo:**
   - Investigar algoritmos de clasificación más avanzados o técnicas de ensamblaje.  
   - Aplicar métodos de escalado o transformación de características para mejorar el desempeño del modelo.  
   - Integrar conjuntos de datos adicionales o datos a largo plazo, si están disponibles.  
