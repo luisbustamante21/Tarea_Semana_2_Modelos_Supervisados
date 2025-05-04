@@ -55,3 +55,8 @@ El objetivo principal es construir un modelo que, a partir de estas variables, p
   3. Índice de Masa Corporal (IMC)
   4. Antecedentes familiares de diabetes
 * **Aplicabilidad:** Este modelo podría integrarse en entornos clínicos o programas de salud pública como herramienta de cribado para la identificación temprana de individuos en riesgo, permitiendo intervenciones preventivas.
+* * **Líneas Futuras de Desarrollo:**
+  - Investigar algoritmos de clasificación más avanzados o técnicas de ensamblaje.  
+  - Aplicar métodos de escalado o transformación de características para mejorar el desempeño del modelo.  
+  - Integrar conjuntos de datos adicionales o datos a largo plazo, si están disponibles.  
+  - Realizar análisis más profundos de subgrupos, considerando factores como el sexo o la etnicidad.
