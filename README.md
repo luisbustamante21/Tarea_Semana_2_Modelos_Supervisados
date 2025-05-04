@@ -12,7 +12,6 @@ El objetivo principal es construir un modelo que, a partir de estas variables, p
 
 * Lectura del archivo `diabetes_dataset.csv`.
 * Visualización de las primeras filas, inspección de tipos de datos, conteo de nulos y detección de duplicados.
-* Confirmación de un índice entero (0–9999) que se eliminó por no aportar información predictiva.
 
 ### 2. Limpieza y Preprocesamiento
 
