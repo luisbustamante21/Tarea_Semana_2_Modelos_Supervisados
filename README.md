@@ -47,7 +47,7 @@ El objetivo principal es construir un modelo que, a partir de estas variables, p
 
 ## Conclusiones
 
-* **Desempeño del Modelo:** El Random Forest obtuvo el mejor balance entre todas las métricas evaluadas, alcanzando alta precisión, recall y AUC-ROC, superando a Regresión Logística, SVM y Árbol de Decisión.
+* **Desempeño del Modelo:** El Random Forest y el Árbol de Decisión obtuvieron el mejor balance entre todas las métricas evaluadas, alcanzando alta precisión, recall y AUC-ROC, superando a SVM.
 * **Variables Más Predictivas:** Los factores con mayor importancia en la predicción fueron:
 
   1. Glucosa en ayunas
